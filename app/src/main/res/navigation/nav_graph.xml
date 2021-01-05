@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/catListFragment">
+
+    <fragment
+        android:id="@+id/catListFragment"
+        android:name="io.muhwyndhamhp.catnip.ui.fragment.CatListFragment"
+        android:label="CatListFragment" >
+        <action
+            android:id="@+id/action_catListFragment_to_userFragment"
+            app:destination="@id/userFragment" />
+        <action
+            android:id="@+id/action_catListFragment_to_catDetailActivity"
+            app:destination="@id/catDetailActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="io.muhwyndhamhp.catnip.ui.fragment.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" />
+    <activity
+        android:id="@+id/catDetailActivity"
+        android:name="io.muhwyndhamhp.catnip.ui.CatDetailActivity"
+        android:label="activity_cat_detail"
+        tools:layout="@layout/activity_cat_detail" >
+
+        <argument
+            android:name="cat"
+            app:argType="io.muhwyndhamhp.catnip.model.Cat" />
+
+    </activity>
+</navigation>
