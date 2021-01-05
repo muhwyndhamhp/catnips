@@ -4,7 +4,7 @@ Simple app to show cat images to complete task requested by Alodokter recruitmen
 
 Consideration and asumption I use to complete this task :
 - No user security is needed (password hashing, salting, encrypting)
-- Not using internet (All local based)
+- Not using internet for basic functionalities (All local based, Internet will be used to load url-based Images)
 - Cat's data is pre-populated
 - User don't have access to write new Cat data
 - User data is assumed (no input for several key user's information such as name, profile image, and phone number)
