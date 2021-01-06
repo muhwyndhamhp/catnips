@@ -12,6 +12,7 @@ Consideration and asumption I use to complete this task :
 - User *WILL BE ABLE* to write new Cat data with minimum modification to the code
 - And many more...
 
+
 With that said, there are several key improvement that could be done in the future if requested, such as :
 - Proper user Registration section 
 - User data security for sensitive informations (Password, Email, Phone Number, Name, etc)
