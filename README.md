@@ -1,6 +1,6 @@
 # CatNips
 
-Simple app to show cat images to complete task requested by Alodokter recruitment team to apply for their Android Developer position. 
+Simple app to show cat images as requested by Alodokter recruitment team to apply for their Android Developer position. 
 
 Consideration and asumption I use to complete this task :
 - No user security is needed (password hashing, salting, encrypting)
